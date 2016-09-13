@@ -1,4 +1,3 @@
 clients/
 node_modules/
 *.csv
-*.xlsx

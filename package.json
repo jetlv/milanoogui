@@ -4,7 +4,7 @@
   "description": "milanoo gui standardize",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha app/**/*.js -t 500000 --recursive -R xunit > apitest-reports.xml"
+    "test": "./node_modules/.bin/mocha modules/*.js -t 500000 --recursive -R xunit > apitest-reports.xml"
   },
   "repository": {
     "type": "git",
